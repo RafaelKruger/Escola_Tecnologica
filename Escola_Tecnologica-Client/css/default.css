@@ -1,0 +1,106 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+header {
+  padding: 1.4rem;
+  margin: auto;
+  text-align: center;
+}
+
+header a,
+#footer {
+  text-shadow: 1px 1px 2px rgb(29, 29, 29);
+}
+
+header a:hover {
+  text-shadow: 1px 2px 4px rgb(25, 25, 25);
+}
+
+.footer-right a,
+.footer-left i,
+header a {
+  color: #00e77f;
+  text-decoration: none;
+}
+
+header,
+#footer {
+  background-color: #4d4d4d;
+}
+
+#footer {
+  padding: 1rem;
+  color: #fff;
+}
+
+.footer-left {
+  margin-bottom: 3rem;
+  text-align: left;
+}
+.footer-right {
+  text-align: justify;
+}
+
+.footer-right > a {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.content {
+  margin: 1rem 2rem;
+}
+
+.content h1,
+.content h2 {
+  color: #000;
+  text-align: center;
+}
+
+.content p {
+  text-align: justify;
+}
+
+.my-primary-color {
+  background-color: #3d3d3d;
+}
+
+.my-second-color {
+  background-color: #4d4d4d;
+}
+
+.my-text-primary-color {
+  color: #fff;
+}
+
+.my-text-second-color {
+  color: #aaa;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  #footer {
+    display: flex;
+  }
+  .footer-left,
+  .footer-right {
+    width: 50%;
+  }
+  .footer-left {
+    margin-bottom: 0px;
+  }
+}

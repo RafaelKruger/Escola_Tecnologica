@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/curso-html.css" />
+    <script src="https://kit.fontawesome.com/a6909c0f2b.js"></script>
+    <title>Curso HTML</title>
+  </head>
+  <body>
+    <header>
+      <a href="/index.html"><h3>🏫 ESCOLA TECNOLÓGICA 📒</h3></a>
+      <nav>
+        <a href="#courses">Cursos</a> &nbsp;&nbsp;
+        <a href="#footer">Sobre a empresa</a> &nbsp;&nbsp;
+        <a href="#footer">Contato</a>
+        &nbsp;&nbsp;
+        <a href="#">🔒</a>
+      </nav>
+    </header>
+    <section class="content">
+      <h1>Curso HTML</h1>
+      <h2>O que é HTML?</h2>
+      <p>
+        HTML(HyperText Markup Language) é uma Linguagem de Marcação de
+        HiperTexto responsável em exibir conteúdo na Web.
+      </p>
+      <p>
+        O HTML usa "Marcação" para para exibir conteúdos em um navegador da Web.
+      </p>
+      <p>
+        A marcação HTML utiliza o sinal de menor ( &lt; ) o nome do elemento e o
+        sinal de maior (&gt; ), assim:
+        <nome do elemento>. Essas marcação são chamadas de "tags "</nome>.
+      </p>
+
+      <h2>O que são Tags?</h2>
+      <p>
+        As "Tags " são o conjunto de caracteres usados para formar um elemento
+        HTML. Exemplo: Quando mencionamos a tag "p " estamos referenciado estes
+        caracateres: &lt;p&gt;
+      </p>
+      <p>Existem 2 tipos de Tags:</p>
+      <ul>
+        <li>
+          Tags que <strong>não</strong> necessitam de fechamento. Exemplos:
+          &lt;br&gt; &lt;hr&gt; &lt;meta&gt; &lt;img&gt;
+        </li>
+        <li>
+          Tags que necessitam de fechamento. Exemplos: &lt;p&gt; &lt;/p&gt;
+          &lt;html&gt; &lt;/html&gt; &lt;body&gt; &lt;/body&gt;
+        </li>
+      </ul>
+
+      <h2>Estrutura Básica de um documento HTML</h2>
+      <p>
+        Um arquivo HTML deve possuir uma estrutura básica de elementos, composta
+        pelas tags: composta pelas tags: &lt;!DOCTYPE&lt; &lt;html&gt;
+        &lt;head&lt; &lt;body&gt;. Veja a seguir uma estrutura básica de um
+        documento HTML.
+      </p>
+
+      <pre class="prettyprint">        <code class="lang-html">
+              &lt;!DOCTYPE html&gt;
+              &lt;html&gt;
+                  &lt;head&gt;
+                      &lt;title&gt;Título&lt;/title&gt;
+                  &lt;/head&gt;
+                  &lt;body&gt;
+                      Código html
+                  &lt;/body&gt;
+              &lt;/html&gt;
+          </code>
+      </pre>
+      <h2>Principais Tags HTML</h2>
+      <h3>Títulos</h3>
+      <p>
+        Quando queremos indicar que um texto é um título em nossa página,
+        utilizamos as tags de heading em sua marcação:
+      </p>
+      <p>Exemplo do uso do Código:</p>
+      <pre class="prettyprint">        <code class="lang-html">
+              &lt;h1&gt; Titulo Principal &lt;/h1&gt;
+              &lt;h2&gt; Titulo Secundario &lt;/h2&gt;
+          </code>
+      </pre>
+
+      <p>Resultado</p>
+
+      <h1>Titulo Principal</h1>
+      <h2>Titulo Secundário</h2>
+      <h3>Parágrafos</h3>
+      <p>Para Exibir qualquer texto em nossa página</p>
+      <p>Exemplo do uso do código</p>
+      <pre class="prettyint">
+        <code class="lang-html">
+          &lt;p&gt; Primeiro Parágrafo &lt;/p&gt;
+          &lt;p&gt; Segundo Parágrafo &lt;/p&gt;
+        </code>
+      </pre>
+      <h3>Imagens</h3>
+      <p>
+        Para incluir uma imagem, utiliza-se a tag &lt;img&gt;. Esta tag não deve
+        ser fechada. Seus atributos obrigatórios são: "src": do inglês “source”
+        (fonte), que é o caminho da imagem e o "alt": texto alternativo, que
+        serve para quando não puder exibira imagem.
+      </p>
+      <p>Exemplo de uso do código:</p>
+      <pre class="prettyprint">
+        <code class="lang-html">
+          &lt;img src="/img/logo_utfpr.png" alt="Logo da UTFPR"&gt;
+        </code>
+      </pre>
+      <p>Resultado:</p>
+      <img src="/img/logo_utfpr.png" />
+    </section>
+    <footer id="footer">
+      <div class="footer-left">
+        <h3>ENTRE EM CONTATO</h3>
+        <p>
+          <i class="fa-solid fa-location-dot"></i>
+          Rua Brasil, CEP 85601654 Francisco Beltrão-PR
+        </p>
+        <p>
+          <i class="fa-solid fa-phone"> </i>
+          046 3520 2121
+        </p>
+        <p>
+          <i class="fa-solid fa-envelope"> </i>
+          suporte@utfpr.edu.br
+        </p>
+        <p>
+          <i class="fa-solid fa-copyright"></i>
+          Copyright - Alunos DSW 6º Período
+        </p>
+      </div>
+      <div class="footer-right">
+        <h3>SOBRE A EMPRESA</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta saepe
+          voluptates perspiciatis quod autem impedit et. Eligendi sequi ad
+          deleniti. Nobis accusamus iste assumenda magni quibusdam quas placeat,
+          exercitationem ex.
+        </p>
+        <a href="https://pt-br.facebook.com/">
+          <i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.twitter.com/"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://br.linkedin.com/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.blogger.com/about/?hl=pt-br"
+          ><i class="fa-solid fa-blog"></i
+        ></a>
+        <a href="https://br.pinterest.com/"
+          ><i class="fa-brands fa-pinterest"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

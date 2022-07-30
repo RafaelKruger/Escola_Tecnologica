@@ -1,0 +1,67 @@
+@import url("/css/default.css");
+#banner,
+#courses {
+  padding: 0.02rem 0rem;
+}
+
+#banner-pic {
+  width: 100%;
+}
+
+#banner-content,
+.course-title {
+  color: #fff;
+  text-align: center;
+}
+
+#banner,
+#courses {
+  background-color: #3d3d3d;
+}
+
+.course {
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 2px 8px rgb(30, 30, 30, 0.8);
+}
+
+.course:hover {
+  box-shadow: 5px 3px 11px rgba(28, 28, 28, 0.9);
+}
+
+.course > a {
+  text-decoration: none;
+}
+
+.course-content {
+  padding: 0rem 1rem 1rem 1rem;
+  color: #aaa;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  #banner-content {
+    width: 100%;
+  }
+  #banner {
+    display: flex;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  #courses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .course {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .course {
+    width: 32%;
+  }
+}

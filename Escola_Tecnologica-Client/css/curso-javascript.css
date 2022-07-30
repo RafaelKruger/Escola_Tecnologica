@@ -1,0 +1,28 @@
+@import url("/css/default.css");
+
+.calculadora {
+  display: block;
+  margin-top: 2rem;
+}
+
+.calculadora-down {
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  margin-top: 0.25rem;
+  margin-right: 0.25rem;
+  border-radius: 1rem;
+  background-color: #4d4d4d;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #fff;
+  color: #4d4d4d;
+}
